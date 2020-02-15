@@ -17,6 +17,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class DownloadThread implements Runnable {
 
     private static final int BUFFER_SIZE = 1024;
+
     public int taskId = 1;
     private String fileUrl;
     private String saveDirectory;
