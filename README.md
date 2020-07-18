@@ -15,7 +15,7 @@ Step 1: Add to maven dependencies
         <dependency>
             <groupId>com.github.elvinmahmudov</groupId>
             <artifactId>jget</artifactId>
-            <version>1.0</version>
+            <version>1.1</version>
         </dependency>
 ```
 
@@ -26,10 +26,10 @@ public class Main {
 
     private static String MODEL_NAME = "com.elvinmahmudov.dynocom.MathTeacher";
 
-    public static void main(String[] args) {
-		JGet jget = JGet.getInstance();
-		String url = "https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4";
-		String saveDirectory = "download";
+    public static void main(String[] args) throws IOException {
+        JGet jget = JGet.getInstance();
+        String url = "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4";
+        String saveDirectory = "download";
 
         JTask task = new JTask(url, saveDirectory, "test.mp4");
         jget.addTask(task);
