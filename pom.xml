@@ -44,7 +44,7 @@
         <maven.build.timestamp.format>yyyyMMdd_HHmmss</maven.build.timestamp.format>
         <!-- artifact version -->
         <jpa.version>2.2</jpa.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <lombok.version>1.18.8</lombok.version>
     </properties>
 
